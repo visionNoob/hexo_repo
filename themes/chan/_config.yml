@@ -9,7 +9,7 @@ monochrome: false
 
 # view setting
 avatar: /images/avatar.jpg
-avatarLink: /
+avatarLink: '/2019/08/02/toc/'
 maxContentWidth: 1000px # set the main content column's max-width property. keep it blank to unlimited the width
 copyright: # the copyright text in the footer, could be richtext
 
@@ -27,18 +27,21 @@ nav:
     - archives   # display a collapsible archive list
   -
     -
-      name: Homepage
-      url: '/'
+      name: Table of Contents
+      url: '/2019/08/02/toc/'
     -
       name: By Year
       url: /archives
+    -
+      name : CS231n Korean Subtitle
+      url : https://github.com/visionNoob/CS231N_17_KOR_SUB
   -
     -
-      name: Chan
-      url: https://github.com/denjones/hexo-theme-chan
-    -
       name: Github
-      url: https://github.com/denjones
+      url: https://github.com/visionNoob
+    -
+      name: KAKAO Open Chat
+      url : https://open.kakao.com/o/ghU9D1o
     -
       name: RSS
       url: /atom.xml
@@ -60,7 +63,7 @@ fb_admins:
 fb_app_id:
 
 # analytics ids
-google_analytics:
+google_analytics: 144555394
 baidu_statistics:
 
 # default creative commons
