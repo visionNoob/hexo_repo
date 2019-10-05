@@ -21,20 +21,23 @@ copyright: # the copyright text in the footer, could be richtext
 # A link starts with http/https would be rendered as a tag with 'target="_blank"' .
 # There are also some special link items representing in string: 'categories', 'tags' and 'archives'
 nav:
-  -
-    - categories # display a collapsible category list
-    - tags       # display a collapsible tag list
-    - archives   # display a collapsible archive list
+ # -
+ #   - categories # display a collapsible category list
+ #   - tags       # display a collapsible tag list
+ #   - archives   # display a collapsible archive list
   -
     -
       name: Table of Contents
       url: '/2019/08/02/toc/'
+  #  -
+  #    name: By Year
+  #    url: /archives
     -
-      name: By Year
-      url: /archives
-    -
-      name : CS231n Korean Subtitle
+      name : Stanford CS231n 2017 한글자막
       url : https://github.com/visionNoob/CS231N_17_KOR_SUB
+    -
+      name : 온라인 강의 추천
+      url : '/2019/10/02/online-courses/'
   -
     -
       name: Github
@@ -51,7 +54,7 @@ nav:
 # If you use disqus then you should set disqus_shortname in your site config and disable duoshuo here.
 # You also need to set 'comments' to true in the front-matter
 #duoshuo: sprabbit
-
+#disqus_shortname: visionnoob
 # jiathis share id
 # refer to http://jiathis.com
 #jiathis: 1589291

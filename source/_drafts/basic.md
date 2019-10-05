@@ -1,5 +1,5 @@
 ﻿---
-title: basic
+title:  momentum에 관한 직관적인 이해
 tags: draft_only
 categories: readme
 date: 2019-07-27
